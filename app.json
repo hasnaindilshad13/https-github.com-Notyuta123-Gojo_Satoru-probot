@@ -28,24 +28,21 @@
         "required": true,
         "value": ""
       },
-      "DB_URI": {
-        "description": "Your MongoDB connection string.",
-        "required": true,
-        "value": ""
-      },
+     
+    
       "DB_NAME": {
         "description": "Your MongoDB database name.",
-        "required": false,
+        "required": true,
         "value": ""
       },
       "OWNER_ID": {
         "description": "Your user ID as an integer.",
-        "required": false,
+        "required": true,
         "value": "1344569458"
       },
       "SUPPORT_GROUP": {
         "description": "Your Telegram support group chat username where users can contact in case of a problem..",
-        "required": false,
+        "required": true,
         "value": "gojo_bots_network"
       },
       "MESSAGE_DUMP": {
@@ -84,10 +81,6 @@
         "value": ""
       },
       
-      "BDB_URI": {
-        "description": "Your Mongodb uri different from the previous one to store more info",
-        "required": false,
-        "value": ""
       },
       "TIME_ZONE": {
         "description": "Your time zone",
