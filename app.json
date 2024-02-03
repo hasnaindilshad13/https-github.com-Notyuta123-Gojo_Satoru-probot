@@ -86,11 +86,7 @@
         "description": "Your time zone",
         "required": false,
         "value": "Asia/Kolkata"
-      },
-      "RMBG_API" : {
-        "description": "Your removebackground api to remove the background",
-        "required": false,
-        "value": ""
+      
       },
       "WORKERS": {
         "description": "Number of workers to run the bot.",
